@@ -8,9 +8,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow,noarchive">
 
-<link rel="stylesheet" href="/jquery-pjax/demo/lib/normalize.css">
-<link rel="stylesheet" href="/jquery-pjax/demo/lib/style.css">
-
 <style>
 #header{
   background: #ee0;
@@ -32,12 +29,11 @@
 }
 </style>
 <script charset="utf-8" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script charset="utf-8" src="../cov/jquery.pjax.js"></script>
-<script>
-$(document).ready(function(){
+<script type="text/javascript">
+            $(document).ready(function(){
                 $(document).pjax('a', '#pjax-container')
             });
-</script>
+        </script>
 </head>
 <body>
 <div id="pjax-container" class="layout-213">
@@ -45,21 +41,24 @@ $(document).ready(function(){
 <header id="header"><div class="wrapper clearfix">
 
   <h1>pjax demo</h1>
-  <p>header1</p>
-  <p>This page delivered from <span class="host" style="font-weight: bold;"></span>.</p>
+
 
 </div></header>
 <div id="wrapper" class="wrapper clearfix">
 <!-- ----- PRIMARY ------------------------------------------------------------ -->
+<div id="primary"><div id="layout"><div class="wrapper clearfix">
 
-  <p>primary1</p>
+ 
+  <p>pjax enable あアｱ亜</p>
+ 
+ 
   <ul>
     <li><a href="./index.html">page1 enable</a></li>
     <li><a href="./2.html">page2 enable</a></li>
     <li><a href="./3.html">page3 enable</a></li>
   </ul>
 
-</div>
+</div></div></div>
 <!-- ----- FOOTER ------------------------------------------------------------- -->
 <footer id="footer"><div class="wrapper clearfix">
 
